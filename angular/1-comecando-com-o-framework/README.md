@@ -1,4 +1,3 @@
-# Boas praticas
-
+# Bytebank
 Projeto criado seguindo curso da Alura.
 

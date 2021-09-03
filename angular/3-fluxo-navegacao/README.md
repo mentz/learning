@@ -1,1 +1,4 @@
-# angular_2_curso
+# Fluxo de Navegacao
+
+Projeto criado seguindo curso da Alura.
+
