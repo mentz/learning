@@ -14,3 +14,13 @@ require('bootstrap')
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+document.addEventListener('turbolinks:load', () => {
+  $('.custom-file-input').on('change', function () {
+    const fileName = $(this).val().split('\\')
+
+    $(this)
+      .next('.custom-file-label')
+      .html(fileName[fileName.length - 1])
+  })
+})
